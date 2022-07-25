@@ -1,0 +1,38 @@
+Task One (Data Cleaning):
+
+In the movie dataset I did the following steps,
+
+1.       I started to record each of my steps in Macro
+
+2.       I first made a copy of the worksheet
+
+3.       I Arranged the columns and grouped the similar data together for better understanding.
+
+4.       Then I searched for any of the columns that were unnecessary for the analysis
+
+5.       Then I searched for Duplicates with conditional formatting where I found that title_year column has a duplicate column and there are double entry of Avengers: Age of Ultron?ÿ and I deleted it after understanding that both data are same.
+
+6.       Then I manipulated the column size for better visibility.
+
+7.       I saw that movie tiles and it had “? Ÿ” so I used LEFT(string, LEN(string) - 1) and removed it and replaced the original column.
+
+8.       I find also double quotes in the values, so I used Replace function to delete only the quotes.
+
+Task Two (Data Visualization):
+
+In the Employee_Salaries.xlsx I have created Dashboards with the following Graphs that includes.
+
+1.       A map of the gross pay by zip code
+
+2.       A bar chart of gross pay by gender
+
+3.       A bar chart of gross pay by number of years being hired
+
+4.       A tree map of overtime pay and department name
+
+5.       Average annual salary
+
+6.       Maximum gross pays by an employee
+
+7.       Number of Employees
+
